@@ -1,0 +1,19 @@
+{
+  "description": "UCRM plugin for SMS notifications, powered by Message Bird",
+  "version": "1.0.1",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SmsNotifier\\": [
+        "src/"
+      ]
+    }
+  },
+  "require": {
+    "twilio/sdk": "^5.21",
+    "php-di/php-di": "^5.4",
+    "katzgrau/klogger": "^1.2",
+    "doctrine/cache": "^1.7",
+    "messagebird/php-rest-api": "^1.16"
+  }
+}
